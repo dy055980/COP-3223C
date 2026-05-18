@@ -2,7 +2,8 @@
 
 int main(void) {
     int x = 42;
-    if(x)   print("This is True\n");
-    if(0)   print("This is False\n");
-    if(-1)  print("This is True\n");
+    if(x)   printf("This is True\n");
+    if(0)   printf("This is False\n");
+    if(-1)  printf("This is True\n");
+
 } 
