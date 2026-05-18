@@ -1,0 +1,9 @@
+# include <stdio.h>
+    
+int main(void) {
+    char *message1 = "Hello, world\n";
+    char message2[100];
+
+// message1: Address of the beginning of the string
+// message2: Address of the beginning of the string
+}

@@ -1,0 +1,9 @@
+# include <stdio.h>
+
+int main(void) {
+    int x = 3;
+    int y = 4;
+
+    printf("++y: %d\n", "++y");
+    printf("now this si y: &d\n", y);
+}

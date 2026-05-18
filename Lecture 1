@@ -1,0 +1,15 @@
+# include <stdio.h>
+    //allows code to be pulled from library
+int main(void) 
+    {
+    char a = 67;
+    int x = 4;
+    float y = 1.02;
+    double z = 1.03456789;
+    printf("Hello!\n");
+    printf("x is %c\n\tIt is %zu bytes long\n", x, sizeof(int));
+    printf("y is %f\n\tIt is %zu bytes long\n", y, sizeof(int));
+    printf("z is %lf\n\tIt is %zu bytes long\n", z, sizeof(int));
+    printf("a (num) is %d\n\tIt is %zu bytes long\n", a, sizeof(int));
+    printf("a (letter) is %c\n", a);
+    }

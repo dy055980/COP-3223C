@@ -1,0 +1,9 @@
+# include <stdio.h>
+int main(void) {
+
+int a = 7, b = 2;
+int result = a / b;         // result == 3, not 3.5
+
+double result = (double)a / b; // 3.5 
+double wrong = (double)(a / b); // 3, done too late
+}
