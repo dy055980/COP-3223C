@@ -1,0 +1,12 @@
+// 0: Sunday, 7: Saturday
+switch (day) {
+    case: 6 /* FALL THROUGH*/
+    case: 0
+        printf("Weekend\n");
+        break;
+    default:
+        printf("Weekday\n");
+        break;
+
+}
+    

@@ -1,0 +1,5 @@
+int choice;
+do {
+    printf("Enter 1-4: ");
+    fscanf(stdin, "%d" &choice);
+}   while(choice <1 || choice > 4);
